@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rebecca-admin-client" />
+        <module name="rebecca-boot-admin" />
+        <module name="rebecca-hystrix-demo" />
+        <module name="rebecca-hystrix-simple" />
+        <module name="rebecca-nacos-admin" />
+        <module name="rebecca-nacos-config" />
+        <module name="rebecca-nacos-config-share" />
+        <module name="rebecca-nacos-consumer" />
+        <module name="rebecca-nacos-feign" />
+        <module name="rebecca-nacos-provide" />
+        <module name="rebecca-nacos-swagger" />
+        <module name="rebecca-security-demo" />
+        <module name="rebecca-sentinel-annotation" />
+        <module name="rebecca-sentinel-limit" />
+        <module name="rebecca-swagger-a" />
+        <module name="rebecca-swagger-b" />
+        <module name="rebecca-zuul-api" />
+        <module name="revecca-sentinel-save" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rebecca-admin-client" target="1.5" />
+      <module name="rebecca-boot-admin" target="1.5" />
+      <module name="rebecca-hystrix-demo" target="1.5" />
+      <module name="rebecca-hystrix-simple" target="8" />
+      <module name="rebecca-nacos-admin" target="1.5" />
+      <module name="rebecca-nacos-config" target="1.5" />
+      <module name="rebecca-nacos-config-share" target="1.5" />
+      <module name="rebecca-nacos-consumer" target="1.5" />
+      <module name="rebecca-nacos-feign" target="1.5" />
+      <module name="rebecca-nacos-provide" target="1.5" />
+      <module name="rebecca-nacos-swagger" target="1.5" />
+      <module name="rebecca-sc" target="1.5" />
+      <module name="rebecca-security-demo" target="1.5" />
+      <module name="rebecca-sentinel-annotation" target="1.5" />
+      <module name="rebecca-sentinel-limit" target="1.5" />
+      <module name="rebecca-swagger-a" target="1.5" />
+      <module name="rebecca-swagger-b" target="1.5" />
+      <module name="rebecca-zuul-api" target="1.5" />
+      <module name="revecca-sentinel-save" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

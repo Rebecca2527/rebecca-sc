@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rebecca-admin-client/rebecca-admin-client.iml" filepath="$PROJECT_DIR$/rebecca-admin-client/rebecca-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-boot-admin/rebecca-boot-admin.iml" filepath="$PROJECT_DIR$/rebecca-boot-admin/rebecca-boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-hystrix-demo/rebecca-hystrix-demo.iml" filepath="$PROJECT_DIR$/rebecca-hystrix-demo/rebecca-hystrix-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-hystrix-simple/rebecca-hystrix-simple.iml" filepath="$PROJECT_DIR$/rebecca-hystrix-simple/rebecca-hystrix-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-nacos-admin/rebecca-nacos-admin.iml" filepath="$PROJECT_DIR$/rebecca-nacos-admin/rebecca-nacos-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-nacos-config/rebecca-nacos-config.iml" filepath="$PROJECT_DIR$/rebecca-nacos-config/rebecca-nacos-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-nacos-config-share/rebecca-nacos-config-share.iml" filepath="$PROJECT_DIR$/rebecca-nacos-config-share/rebecca-nacos-config-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-nacos-consumer/rebecca-nacos-consumer.iml" filepath="$PROJECT_DIR$/rebecca-nacos-consumer/rebecca-nacos-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-nacos-feign/rebecca-nacos-feign.iml" filepath="$PROJECT_DIR$/rebecca-nacos-feign/rebecca-nacos-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-nacos-provide/rebecca-nacos-provide.iml" filepath="$PROJECT_DIR$/rebecca-nacos-provide/rebecca-nacos-provide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-nacos-swagger/rebecca-nacos-swagger.iml" filepath="$PROJECT_DIR$/rebecca-nacos-swagger/rebecca-nacos-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-sc.iml" filepath="$PROJECT_DIR$/rebecca-sc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-security-demo/rebecca-security-demo.iml" filepath="$PROJECT_DIR$/rebecca-security-demo/rebecca-security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-sentinel-annotation/rebecca-sentinel-annotation.iml" filepath="$PROJECT_DIR$/rebecca-sentinel-annotation/rebecca-sentinel-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-sentinel-limit/rebecca-sentinel-limit.iml" filepath="$PROJECT_DIR$/rebecca-sentinel-limit/rebecca-sentinel-limit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-swagger-a/rebecca-swagger-a.iml" filepath="$PROJECT_DIR$/rebecca-swagger-a/rebecca-swagger-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-swagger-b/rebecca-swagger-b.iml" filepath="$PROJECT_DIR$/rebecca-swagger-b/rebecca-swagger-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rebecca-zuul-api/rebecca-zuul-api.iml" filepath="$PROJECT_DIR$/rebecca-zuul-api/rebecca-zuul-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/revecca-sentinel-save/revecca-sentinel-save.iml" filepath="$PROJECT_DIR$/revecca-sentinel-save/revecca-sentinel-save.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rebecca-nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        #group: 可以通过该项区别生产环境（不推荐，因需更改配置）
+        prefix: ${spring.application.name}
+        file-extension: yml
+        namespace: b1520d57-9a7c-4d26-a9d4-8253166470c9  #命名空间id

@@ -1,0 +1,24 @@
+server:
+  port: 9526
+
+spring:
+  application:
+    name: rebecca-zuul-api
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+#使用fegin调用提供者方法服务超时：com.netflix.zuul.exception.ZuulException: Forwarding error
+#添加超时配置
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000
+zuul:
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+  #路由配置 将rebecca-naco-fegin变为test，但rebecca-naco-fegin仍可用
+  routes:
+    rebecca-naco-fegin: /test/**
+

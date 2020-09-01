@@ -1,0 +1,10 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: rebecca-sentinel-annotation
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080 #sentinel dashboard的访问地址

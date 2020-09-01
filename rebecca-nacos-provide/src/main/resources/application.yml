@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: rebecca-nacos-provide
+  profiles:
+    active: dev

@@ -1,0 +1,6 @@
+
+spring:
+  application:
+    name: rebecca-naco-fegin
+  profiles:
+    active: dev

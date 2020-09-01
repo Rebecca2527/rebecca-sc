@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: rebecca-sentinel-save
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+      datasource:
+        ds:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}
+            groupId: DEFAULT_GROUP
+            rule-type: flow
+
+server:
+  port: 8803

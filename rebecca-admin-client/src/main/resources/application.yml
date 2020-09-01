@@ -1,0 +1,19 @@
+server:
+  port: 9101
+
+spring:
+  boot:
+    admin:
+      client:
+        url:  http://127.0.0.1:9100 #向adminserver注册
+  application:
+    name: rebecca-admin-client
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
+    endpoint:
+      health:
+        show-details: ALWAYS
