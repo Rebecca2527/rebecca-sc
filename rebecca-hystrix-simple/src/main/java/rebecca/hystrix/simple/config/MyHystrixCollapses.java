@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 2 * @Author: Rebecca
  * 3 * @Date: 2020/9/1 15:14
- * 4   合并请求 :   把重复的请求批量用一个HystrixCommand命令去执行
+ * 4   合并请求 :  把重复的请求批量用一个HystrixCommand命令去执行
  * 5    优点：减少通信开销 缺点：请求延迟增加
  * 6    步骤：自定义类继承HystrixCollapser类，去合并请求，合并成一个集合，并且返回各自的结果
  * 7         继承HystrixCommand类，执行合并后的请求
